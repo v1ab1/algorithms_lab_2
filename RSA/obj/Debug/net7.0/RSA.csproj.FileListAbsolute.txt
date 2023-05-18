@@ -1,0 +1,15 @@
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/bin/Debug/net7.0/RSA
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/bin/Debug/net7.0/RSA.deps.json
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/bin/Debug/net7.0/RSA.runtimeconfig.json
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/bin/Debug/net7.0/RSA.dll
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/bin/Debug/net7.0/RSA.pdb
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/obj/Debug/net7.0/RSA.csproj.AssemblyReference.cache
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/obj/Debug/net7.0/RSA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/obj/Debug/net7.0/RSA.AssemblyInfoInputs.cache
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/obj/Debug/net7.0/RSA.AssemblyInfo.cs
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/obj/Debug/net7.0/RSA.csproj.CoreCompileInputs.cache
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/obj/Debug/net7.0/RSA.dll
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/obj/Debug/net7.0/refint/RSA.dll
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/obj/Debug/net7.0/RSA.pdb
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/obj/Debug/net7.0/RSA.genruntimeconfig.cache
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/RSA/obj/Debug/net7.0/ref/RSA.dll

@@ -1,0 +1,15 @@
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/bin/Debug/net7.0/Bytes
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/bin/Debug/net7.0/Bytes.deps.json
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/bin/Debug/net7.0/Bytes.runtimeconfig.json
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/bin/Debug/net7.0/Bytes.dll
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/bin/Debug/net7.0/Bytes.pdb
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/obj/Debug/net7.0/Bytes.csproj.AssemblyReference.cache
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/obj/Debug/net7.0/Bytes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/obj/Debug/net7.0/Bytes.AssemblyInfoInputs.cache
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/obj/Debug/net7.0/Bytes.AssemblyInfo.cs
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/obj/Debug/net7.0/Bytes.csproj.CoreCompileInputs.cache
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/obj/Debug/net7.0/Bytes.dll
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/obj/Debug/net7.0/refint/Bytes.dll
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/obj/Debug/net7.0/Bytes.pdb
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/obj/Debug/net7.0/Bytes.genruntimeconfig.cache
+/Users/vladislav/Documents/GitHub/Other/algos/lab2/Bytes/obj/Debug/net7.0/ref/Bytes.dll
