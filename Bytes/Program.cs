@@ -194,38 +194,101 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    // Создание экземпляра класса SignedByteArray
-    SignedByteArray a = new SignedByteArray(-9);
-    SignedByteArray b = new SignedByteArray(5);
+    while (true) {
+      Console.WriteLine("Введите первую цифру:");
+      SignedByteArray a = new SignedByteArray(Convert.ToInt32(Console.ReadLine()));
+      Console.WriteLine("Предстваление первой цифры в виде массива однобайтовых элементов:");
+      a.PrintArray();
 
-    a.PrintArray();
+      Console.WriteLine("Введите операцию:");
+      Console.WriteLine("+: сумма");
+      Console.WriteLine("-: разность");
+      Console.WriteLine("*: умножение");
+      Console.WriteLine("/: целое");
+      Console.WriteLine("%: остаток");
+      Console.WriteLine("==: равенство");
+      Console.WriteLine("!=: неравенство");
+      Console.WriteLine(">: больше");
+      Console.WriteLine("<: меньше");
+      Console.WriteLine("mod: обратное по модулю");
+      string oper = Console.ReadLine();
 
-    // Пример использования операторов и метода
-    SignedByteArray sum = a + b;
-    SignedByteArray difference = a - b;
-    SignedByteArray product = a * b;
-    SignedByteArray quotient = a / b;
-    SignedByteArray remainder = a % b;
+      Console.WriteLine("Введите вторую цифру:");
+      SignedByteArray b = new SignedByteArray(Convert.ToInt32(Console.ReadLine()));
+      Console.WriteLine("Предстваление второй цифры в виде массива однобайтовых элементов:");
+      b.PrintArray();
 
-    bool isEqual = (a == b);
-    bool isNotEqual = (a != b);
-    bool isLessThan = (a < b);
-    bool isGreaterThan = (a > b);
+      SignedByteArray result;
+      bool resultBool;
 
-    SignedByteArray modInverse = a.ModInverse(7);
-
-    // Вывод результатов
-    Console.WriteLine("Sum: " + sum.ToInt());
-    Console.WriteLine("Difference: " + difference.ToInt());
-    Console.WriteLine("Product: " + product.ToInt());
-    Console.WriteLine("Quotient: " + quotient.ToInt());
-    Console.WriteLine("Remainder: " + remainder.ToInt());
-
-    Console.WriteLine("Equal: " + isEqual);
-    Console.WriteLine("Not Equal: " + isNotEqual);
-    Console.WriteLine("Less Than: " + isLessThan);
-    Console.WriteLine("Greater Than: " + isGreaterThan);
-
-    Console.WriteLine("Modular Inverse: " + modInverse.ToInt());
+      switch (oper)
+      {
+        case "+":
+          result = a + b;
+          Console.WriteLine("Результат в виде массива однобайтовых элементов:");
+          result.PrintArray();
+          Console.WriteLine("Результат в числах:");
+          Console.WriteLine(result.ToInt());
+          break;
+        case "-":
+          result = a - b;
+          Console.WriteLine("Результат в виде массива однобайтовых элементов:");
+          result.PrintArray();
+          Console.WriteLine("Результат в числах:");
+          Console.WriteLine(result.ToInt());
+          break;
+        case "*":
+          result = a * b;
+          Console.WriteLine("Результат в виде массива однобайтовых элементов:");
+          result.PrintArray();
+          Console.WriteLine("Результат в числах:");
+          Console.WriteLine(result.ToInt());
+          break;
+        case "/":
+          result = a / b;
+          Console.WriteLine("Результат в виде массива однобайтовых элементов:");
+          result.PrintArray();
+          Console.WriteLine("Результат в числах:");
+          Console.WriteLine(result.ToInt());
+          break;
+        case "%":
+          result = a % b;
+          Console.WriteLine("Результат в виде массива однобайтовых элементов:");
+          result.PrintArray();
+          Console.WriteLine("Результат в числах:");
+          Console.WriteLine(result.ToInt());
+          break;
+        case "mod":
+          result = a.ModInverse(b.ToInt());
+          Console.WriteLine("Результат в виде массива однобайтовых элементов:");
+          result.PrintArray();
+          Console.WriteLine("Результат в числах:");
+          Console.WriteLine(result.ToInt());
+          break;
+        case "==":
+          resultBool = (a == b);
+          Console.WriteLine("Результат:");
+          Console.WriteLine(resultBool);
+          break;
+        case "!=":
+          resultBool = (a != b);
+          Console.WriteLine("Результат:");
+          Console.WriteLine(resultBool);
+          break;
+        case ">":
+          resultBool = (a > b);
+          Console.WriteLine("Результат:");
+          Console.WriteLine(resultBool);
+          break;
+        case "<":
+          resultBool = (a < b);
+          Console.WriteLine("Результат:");
+          Console.WriteLine(resultBool);
+          break;
+        default:
+          Console.WriteLine("Неправильный оператор");
+          continue;
+      }
+    }
   }
 }
